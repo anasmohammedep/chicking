@@ -8,12 +8,11 @@
 </head>
 <body class="bg-white">
 
-  <!-- NAVBAR START -->
+  <!-- NAVBAR -->
   <nav class="w-full bg-[#fafafa] border-t-[3px] border-black">
     <div class="max-w-7xl mx-auto px-6 lg:px-10">
       <div class="justify-between h-[118px] flex items-center sticky top-0 z-50 shadow-sm">
         
-        <!-- Logo -->
         <div class="flex-shrink-0">
           <img src="image/chicking-logo.png" alt="Chicking Logo" 
                class="h-12 lg:h-[52px] w-auto object-contain">
@@ -25,7 +24,7 @@
           <a href="#" class="text-[14px] font-bold tracking-wide text-black hover:text-[#B91C1C] transition">ABOUT US</a>
           <a href="#" class="text-[14px] font-bold tracking-wide text-black hover:text-[#B91C1C] transition">BLOGS</a>
           <a href="#" class="text-[14px] font-bold tracking-wide text-black hover:text-[#B91C1C] transition">CONTACT US</a>
-          
+        
           <!-- Button -->
           <a href="#" class="bg-[#A51D21] hover:bg-[#8B181C] text-white text-[13px] font-bold px-6 py-2.5 rounded-full flex items-center gap-2 transition shadow-sm">
             LOCATE US
@@ -33,7 +32,6 @@
           </a>
         </div>
 
-        <!-- Mobile Menu Icon -->
         <div class="md:hidden">
           <button class="text-black text-2xl">
             <i class="fa-solid fa-bars"></i>
@@ -53,7 +51,7 @@
   </nav>
   <!-- NAVBAR END -->
 
-<!-- HERO SECTION START -->
+<!-- HERO SECTION  -->
 <section class="relative w-full h-[95vh] overflow-hidden bg-black">
 
   <!-- 1. BACKGROUND VIDEO -->
@@ -64,7 +62,7 @@
   <!-- Dark Overlay for text visibility -->
   <div class="absolute inset-0 bg-black/30"></div>
 
-  <!-- 2. CENTER CONTENT -->
+
   <div class="relative z-10 w-full h-full flex flex-col items-center justify-center text-center px-4">
     
     <h1 class="text-white text-[32px] md:text-[52px] font-extrabold leading-tight drop-shadow-lg">
@@ -94,6 +92,7 @@
   // ORDER ONLINE - Red to White on Hover
   const orderBtn = document.getElementById('orderBtn');
   orderBtn.addEventListener('mouseenter', () => {
+
     orderBtn.style.backgroundColor = 'white'; // white aakum
     orderBtn.style.color = '#8B1A1A'; // text red aakum
     orderBtn.style.transform = 'scale(1.05)';
@@ -120,10 +119,9 @@
 
   </div>
 
-  <!-- 3. RIGHT SIDE BUTTONS - Order Now Whatsapp + Store Buttons -->
+  <!-- RIGHT SIDE BUTTONS -->
   <div class="absolute right-4 md:right-6 bottom-10 md:bottom-10 z-20 flex flex-col gap-4 items-end">
 
-    <!-- Whatsapp Order Now -->
     <div class="flex items-center gap-2">
       <span class="bg-red-700 text-white text-[10px] font-bold px-3 py-1 rounded-full">Order Now</span>
       <a href="#" class="bg-[#25D366] w-14 h-14 rounded-full flex items-center justify-center text-white text-3xl shadow-lg">
@@ -131,12 +129,10 @@
       </a>
     </div>
 
-    <!-- Google Play -->
     <a href="#" class="block">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="h-10 md:h-11 rounded-md" alt="Google Play">
     </a>
 
-    <!-- App Store -->
     <a href="#" class="block">
       <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" class="h-10 md:h-11" alt="App Store">
     </a>
@@ -146,7 +142,6 @@
 </section>
 <!-- HERO SECTION END -->
 
-<!-- WELCOME SECTION START -->
 <section class="w-full flex flex-col items-center justify-center py-8 md:py-16 px-4">
 
   <h2 class="text-[#A31E22] text-[28px] md:text-[48px] lg:text-[54px] font-extrabold text-center leading-none tracking-tight">
@@ -157,10 +152,8 @@
   <div class="w-[50px] md:w-[80px] h-[3px] md:h-[4px] bg-[#A31E22] mt-2 md:mt-3"></div>
 
 </section>
-<!-- WELCOME SECTION END -->
 
-
-<!-- OUR STORY SECTION START -->
+<!-- OUR STORY  -->
 <section class="w-full max-w-[1300px] mx-auto px-5 md:px-10 py-10 md:py-16">
   <div class="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
 
@@ -169,7 +162,6 @@
       <img src="image/chicking img 1.jpg" alt="Chicking Foods" class="w-full h-auto rounded-xl shadow-lg object-cover">
     </div>
 
-    <!-- RIGHT CONTENT -->
     <div class="w-full md:w-[50%]">
       <h3 class="text-[18px] md:text-[20px] font-bold text-[#222]">Our Story</h3>
       
@@ -181,7 +173,6 @@
         Across every outlet in India, our focus remains the same, providing consistent quality, warm hospitality and food that brings people together. Our journey continues with the promise of delivering better taste, better value and a welcoming experience for every guest.
       </p>
 
-      <!-- READ MORE BUTTON - Same as Order Online + Arrow Animation -->
       <a href="#" class="group mt-6 inline-flex items-center justify-center gap-2 bg-[#A31E22] hover:bg-[#8B1A1A] text-white px-8 py-3 rounded-full font-bold text-[14px] tracking-wide transition-all duration-300 shadow-md hover:shadow-lg">
         READ MORE
         <span class="flex items-center transition-transform duration-300 group-hover:translate-x-1">
@@ -192,32 +183,26 @@
 
   </div>
 </section>
-<!-- OUR STORY SECTION END -->
 
-<!-- STATS SECTION START -->
 <section class="w-full max-w-[1350px] mx-auto bg-[#A81E23] rounded-xl px-6 md:px-10 py-10 md:py-14">
 
   <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 text-center">
 
-    <!-- 1 -->
     <div class="flex flex-col items-center">
       <h2 class="text-white text-[32px] md:text-[42px] font-extrabold leading-none">150+</h2>
       <p class="text-white/90 text-[12px] md:text-[14px] mt-3 font-medium leading-tight">Million Happy Customers</p>
     </div>
 
-    <!-- 2 -->
     <div class="flex flex-col items-center">
       <h2 class="text-white text-[32px] md:text-[42px] font-extrabold leading-none">100+</h2>
       <p class="text-white/90 text-[12px] md:text-[14px] mt-3 font-medium leading-tight">Outlets across India's major cities</p>
     </div>
 
-    <!-- 3 -->
     <div class="flex flex-col items-center">
       <h2 class="text-white text-[32px] md:text-[42px] font-extrabold leading-none">500+</h2>
       <p class="text-white/90 text-[12px] md:text-[14px] mt-3 font-medium leading-tight">Outlets Worldwide</p>
     </div>
 
-    <!-- 4 -->
     <div class="flex flex-col items-center">
       <h2 class="text-white text-[32px] md:text-[42px] font-extrabold leading-none">25+</h2>
       <p class="text-white/90 text-[12px] md:text-[14px] mt-3 font-medium leading-tight">Years of flavourful excellence</p>
@@ -226,37 +211,29 @@
   </div>
 
 </section>
-<!-- STATS SECTION END -->
 
-<!-- MENU HEADING START -->
+<!-- MENU -->
 <section class="w-full flex flex-col items-center justify-center py-10 md:py-16 px-4">
 
   <h2 class="text-[#A81E23] text-[28px] md:text-[46px] font-extrabold text-center leading-[1.1] tracking-tight">
     Taste the Best of<br>ChicKing Menu
   </h2>
-
-  <!-- Small underline -->
   <div class="w-[60px] md:w-[80px] h-[3px] md:h-[4px] bg-[#A81E23] mt-2 md:mt-3"></div>
 
 </section>
-<!-- MENU HEADING END -->
 
-<!-- 2 CARDS SECTION START -->
+<!-- 2 CARDS -->
 <section class="w-full max-w-[1350px] mx-auto">
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8">
 
-    <!-- CARD 1 -->
     <div class="group relative w-full h-[280px] md:h-[380px] rounded-xl overflow-hidden cursor-pointer shadow-md">
       
-      <!-- Image with Zoom Animation -->
       <img src="image/chicking img 2.jpg" alt="Burgers & Wraps" 
            class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-110">
       
-      <!-- Dark Gradient -->
       <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
 
-      <!-- Text -->
       <div class="absolute bottom-0 left-0 p-5 md:p-6">
         <h3 class="text-white text-[18px] md:text-[22px] font-bold">Burgers & Wraps</h3>
         <p class="text-white/80 text-[12px] md:text-[13px] mt-2 leading-[1.5] max-w-[90%]">
@@ -265,17 +242,14 @@
       </div>
     </div>
 
-    <!-- CARD 2 -->
     <div class="group relative w-full h-[280px] md:h-[380px] rounded-xl overflow-hidden cursor-pointer shadow-md">
       
     
       <img src="image/chicking img 3.jpeg" alt="Strips & Hot Wings" 
            class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-110">
       
-      <!-- Dark Gradient -->
       <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
 
-      <!-- Text -->
       <div class="absolute bottom-0 left-0 p-5 md:p-6">
         <h3 class="text-white text-[18px] md:text-[22px] font-bold">Strips & Hot Wings</h3>
         <p class="text-white/80 text-[12px] md:text-[13px] mt-2 leading-[1.5] max-w-[90%]">
@@ -288,7 +262,7 @@
 
 </section>
 
-<!-- next image section -->
+<!-- BIG IMAGE -->
 <div class="h-4"></div>
 
 <div class="w-[90%] mx-auto group h-[250px] md:h-[600px] rounded-lg overflow-hidden relative cursor-pointer">
@@ -303,30 +277,24 @@
 
 </div>
 
-<!-- Pizzas & Sides Section - Final Code -->
+<!-- 2 CARDS -->
 <section class="w-full py-6">
   <div class="w-[90%] max-w-[1400px] mx-auto flex flex-col md:flex-row gap-6">
 
-    <!-- Card 1 - Pizzas & Tacos -->
     <div class="group w-full md:w-1/2 h-[280px] md:h-[380px] rounded-lg overflow-hidden relative cursor-pointer">
-      <!-- Zoom Image -->
       <img src="image/chicking img 4.jpg" alt="Pizzas & Tacos"
            class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105">
       
-      <!-- Bottom Text -->
       <div class="absolute bottom-0 left-0 w-full p-4 md:p-5">
         <h3 class="text-white font-bold text-[16px] md:text-[18px] drop-shadow-md">Pizzas & Tacos</h3>
         <p class="text-white/90 text-[11px] md:text-[12px] mt-1 leading-[1.4] drop-shadow">A fusion of special flavors with ChickKing's unique touch on pizzas and tacos- loaded, hearty, and great for sharing</p>
       </div>
     </div>
 
-    <!-- Card 2 - Sides & Beverages -->
     <div class="group w-full md:w-1/2 h-[280px] md:h-[380px] rounded-lg overflow-hidden relative cursor-pointer">
-      <!-- Zoom Image -->
       <img src="image/chicking img 5.jpg" alt="Sides & Beverages"
            class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105">
       
-      <!-- Bottom Text -->
       <div class="absolute bottom-0 left-0 w-full p-4 md:p-5">
         <h3 class="text-white font-bold text-[16px] md:text-[18px] drop-shadow-md">Sides & Beverages</h3>
         <p class="text-white/90 text-[11px] md:text-[12px] mt-1 leading-[1.4] drop-shadow">Fresh, flavorful veg and chicken sides for exitement and enjoy the flavourful ChickKing bite. Tasty and refreshing.</p>
@@ -336,14 +304,12 @@
   </div>
 </section>
 
-<!-- OUR FOODS Button - Top -->
 <div class="w-full flex justify-center py-8 bg-[#f7f5f5]">
   <button class="bg-[#A81E23] text-white text-[12px] md:text-[13px] font-bold px-6 py-2.5 rounded-full tracking-wide">
     OUR FOODS
   </button>
 </div>
 
-<!-- DOWNLOAD APP SECTION -->
 <section class="w-full bg-[#A81E23] py-12 md:py-20 px-4">
 
   <div class="max-w-[800px] mx-auto flex flex-col items-center text-center">
@@ -352,14 +318,12 @@
       Download Our App Today
     </h2>
 
-    <!-- Small white line -->
     <div class="w-[50px] h-[3px] bg-white mt-2 mb-5"></div>
 
     <p class="text-white/90 text-[11px] md:text-[13px] leading-[1.6] max-w-[90%] md:max-w-[650px]">
       Experience faster ordering, exclusive deals, and a smoother way to enjoy your favorites. Download the ChicKing India app on Android or iOS and make every meal just a tap away.
     </p>
 
-    <!-- Store Buttons -->
     <div class="flex gap-3 mt-6">
       <a href="#">
         <img src="image/playstore.avif" alt="Google Play" class="h-[36px] md:h-[40px]">
@@ -373,10 +337,9 @@
 
 </section>
 
-<!-- STORE LOCATOR SECTION -->
+<!-- STORE LOCATOR -->
 <section class="w-full py-10 md:py-16 px-4">
 
-  <!-- Heading -->
   <div class="text-center">
     <h2 class="text-[#A81E23] text-[24px] md:text-[36px] font-extrabold">
       ChicKing Store Locator
@@ -406,7 +369,7 @@
       </select>
     </div>
 
-    <!-- DISTRICT - Empty only placeholder -->
+    <!-- DISTRICT -->
     <div class="w-full md:w-[220px]">
       <label class="text-[12px] font-bold text-gray-800 mb-1 block">District</label>
       <select class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-[12px] outline-none text-gray-600">
@@ -418,7 +381,7 @@
 
 </section>
 
-<!-- LATEST NEWS & BLOGS -->
+<!-- NEWS & BLOGS -->
 <section class="w-full py-10 md:py-16 px-4">
   
   <h2 class="text-[#A81E23] text-center text-[24px] md:text-[36px] font-extrabold">Latest News & Blogs</h2>
@@ -426,9 +389,8 @@
 
   <div class="w-[90%] max-w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
 
-    <!-- CARD 1 -->
     <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-      <!-- Image Area -->
+
       <div class="relative w-full h-[220px] overflow-hidden">
         <img src="image/blog 1.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
         <div class="absolute top-3 left-3 bg-[#A81E23] text-white text-center px-3 py-1.5 rounded-md">
@@ -436,7 +398,7 @@
           <p class="text-[10px] font-bold mt-0.5">JUN</p>
         </div>
       </div>
-      <!-- Text Area - White BG -->
+
       <div class="p-4">
         <h3 class="text-[14px] md:text-[15px] font-bold text-black leading-tight">ChicKing's Great Deal Returns, Get 10 Pieces for Just Rs. 599 Every Tuesday and Thursday</h3>
         <p class="text-gray-500 text-[11px] md:text-[12px] mt-3 leading-normal">The fan favorite Great Deal returns, giving customers 10 pieces of ChicKing's signature fried chicken for ju...</p>
@@ -444,7 +406,6 @@
       </div>
     </div>
 
-    <!-- CARD 2 -->
     <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
       <div class="relative w-full h-[220px] overflow-hidden">
         <img src="image/blog 2.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -460,7 +421,6 @@
       </div>
     </div>
 
-    <!-- CARD 3 -->
     <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
       <div class="relative w-full h-[220px] overflow-hidden">
         <img src="image/blog 3.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -479,7 +439,6 @@
   </div>
 </section>
 
-<!-- VIEW ALL BLOGS BUTTON - Top -->
 <div class="w-full flex justify-center py-8">
   <a href="#" class="bg-[#A81E23] text-white text-[11px] font-bold px-6 py-2.5 rounded-full tracking-wide hover:bg-[#8a181c] transition">
     VIEW ALL BLOGS
@@ -500,7 +459,6 @@
       </p>
     </div>
 
-    <!-- CENTER - Quick Links Clickable -->
     <div>
       <h3 class="text-[14px] font-bold">Quick Links</h3>
       <div class="w-[25px] h-[2px] bg-[#A81E23] mt-1 mb-3"></div>
@@ -513,7 +471,6 @@
       </ul>
     </div>
 
-    <!-- RIGHT - Contact Info Clickable -->
     <div>
       <h3 class="text-[14px] font-bold">Contact Info</h3>
       <div class="w-[25px] h-[2px] bg-[#A81E23] mt-1 mb-3"></div>
@@ -522,7 +479,7 @@
         <li><a href="tel:+919744480000" class="text-gray-300 text-[12px] hover:text-white transition"><i class="fa-solid fa-phone mr-2"></i>+91 97444 80000</a></li>
         <li><a href="mailto:info@chickingindia.in" class="text-gray-300 text-[12px] hover:text-white transition"><i class="fa-solid fa-envelope mr-2"></i>info@chickingindia.in</a></li>
       </ul>
-      <!-- Social Icons -->
+
       <div class="flex gap-2.5 mt-4">
         <a href="#" class="w-7 h-7 bg-[#333] rounded-full flex items-center justify-center hover:bg-[#A81E23] transition"><i class="fa-brands fa-facebook-f text-[11px]"></i></a>
         <a href="#" class="w-7 h-7 bg-[#333] rounded-full flex items-center justify-center hover:bg-[#A81E23] transition"><i class="fa-brands fa-instagram text-[11px]"></i></a>
@@ -533,7 +490,6 @@
 
   </div>
 
-  <!-- Copyright -->
   <div class="w-full bg-[#121212] py-3 text-center">
     <p class="text-gray-400 text-[11px]">© 2026 <span class="text-[#A81E23]">ChicKing India.</span> All Rights Reserved.</p>
   </div>

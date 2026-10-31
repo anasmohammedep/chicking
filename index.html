@@ -87,21 +87,20 @@
 </div>
 
 <script>
-  // ORDER ONLINE - Red to White on Hover
   const orderBtn = document.getElementById('orderBtn');
   orderBtn.addEventListener('mouseenter', () => {
 
-    orderBtn.style.backgroundColor = 'white'; // white aakum
-    orderBtn.style.color = '#8B1A1A'; // text red aakum
+    orderBtn.style.backgroundColor = 'white'; 
+    orderBtn.style.color = '#8B1A1A'; 
     orderBtn.style.transform = 'scale(1.05)';
   });
   orderBtn.addEventListener('mouseleave', () => {
-    orderBtn.style.backgroundColor = '#8B1A1A'; // pazhaya red
-    orderBtn.style.color = 'white'; // pazhaya white text
+    orderBtn.style.backgroundColor = '#8B1A1A'; 
+    orderBtn.style.color = 'white'; 
     orderBtn.style.transform = 'scale(1)';
   });
 
-  // DOWNLOAD APP - Same as before
+  
   const downloadBtn = document.getElementById('downloadBtn');
   downloadBtn.addEventListener('mouseenter', () => {
     downloadBtn.style.backgroundColor = 'white';
